@@ -11,5 +11,6 @@ Database: MySQL / SQL Server
 Features: add to cart & wishlist features,online payment,online ordering feature,checkout system & etc.
 
 # Database
+![image alt](https://github.com/Roshani797/Website-for-Computer-shop/blob/c13ee6872b02041ea57ce7eba88689922db75040/database12.png)
 
 
