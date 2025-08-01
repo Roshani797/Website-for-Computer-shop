@@ -1,0 +1,50 @@
+
+:root {
+    --bg-color: #f0f2f5;
+    --sidebar-bg: #24292e;
+    --sidebar-link: #ccc;
+    --sidebar-hover: #2c313a;
+    --text-color: #333;
+    --main-bg: #ffffff;
+    --primary: #007bff;
+    --danger: #dc3545;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.sidebar {
+    background: var(--sidebar-bg);
+}
+
+.sidebar a {
+    color: var(--sidebar-link);
+}
+
+.sidebar a:hover {
+    background: var(--sidebar-hover);
+    color: #fff;
+}
+
+.main {
+    background: var(--bg-color);
+}
+
+.topbar {
+    background: var(--main-bg);
+    color: var(--text-color);
+}
+
+.section {
+    background: var(--main-bg);
+}
+
+button {
+    background-color: var(--primary);
+}
+
+button.danger {
+    background-color: var(--danger);
+}

@@ -1,0 +1,93 @@
+.site-footer {
+  background-color: #11111100;
+  color: #ffffff00;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+
+.footer-left, .footer-middle, .footer-right {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.footer-left h2 {
+  font-size: 20px;
+  color: #f1c40f;
+  margin-bottom: 10px;
+}
+
+.footer-left p, .footer-links ul li, .footer-social a {
+  color: #000000;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer-left i {
+  margin-right: 8px;
+}
+
+
+
+.footer-links h3, .footer-social h3 {
+  color: #f1c40f;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  color: #f1c40f;
+}
+
+.footer-social a {
+  margin-right: 15px;
+  font-size: 18px;
+  color: #000000;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #f1c40f;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  color: #131212;
+}
+
+.payment-methods {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #0b0b0b; /* icon color */
+}
+
+.payment-methods i:hover {
+  color: #ead324; /* darker on hover */
+  cursor: pointer;
+}
+
+
+
+
+
+
+

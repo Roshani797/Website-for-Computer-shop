@@ -1,0 +1,40 @@
+.laptop-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+
+.laptop-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.laptop-card h3 {
+  margin: 10px 0 5px;
+}
+
+.laptop-card p {
+  color: #444;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.product-icons button {
+  background: #ff4081;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.product-icons button:hover {
+  background: #e91e63;
+}

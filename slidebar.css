@@ -1,0 +1,32 @@
+.sidebar {
+    width: 220px;
+    background: #000000;
+    color: #fff;
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.hidden {
+    left: -220px;
+}
+
+.main {
+    margin-left: 220px;
+    padding: 30px;
+    width: 100%;
+    transition: margin-left 0.3s ease;
+}
+
+.main.fullwidth {
+    margin-left: 0;
+}
+
+.message-card[data-category="promotions"] { border-left: 5px solid #007bff; }
+.message-card[data-category="orders"] { border-left: 5px solid #28a745; }
+.message-card[data-category="shipping"] { border-left: 5px solid #ffc107; }
+
+

@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+.top-header {
+  background-color: #000;
+  color: #fff;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.top-header a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 700px; /* Increase this to widen the full search bar */
+}
+
+.search-bar .category-select {
+  padding: 10px;
+  border: none;
+  background-color: #eee;
+  font-size: 14px;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  min-width: 300px; /* Adjust this as needed */
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  background-color: #ffd500;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.icons a {
+  margin-left: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.icons a i {
+  font-size: 18px;
+}
+.category-mega-bar {
+  background-color: #000;
+  padding: 0;
+}
+
+.mega-menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.mega-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 3px;
+}
+
+.mega-menu > li {
+  position: relative;
+}
+
+.mega-menu > li > a {
+  display: block;
+  color: #fff;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mega-menu > li:hover {
+  background-color: #ffd500;
+}
+
+.mega-menu > li:hover > a {
+  color: #000;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 200px;
+  top: 100%;
+  left: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.submenu li a {
+  padding: 10px 15px;
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+  background-color: #f2f2f2;
+}
+
+.mega-menu li:hover .submenu {
+  display: block;
+}
+
+.hotline {
+  color: #ffd500;
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.hotline a {
+  color: #ffd500;
+  text-decoration: none;
+}
+
+.hotline a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive behavior for small screens */
+@media (max-width: 768px) {
+  .mega-menu-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .mega-menu {
+    flex-wrap: wrap;
+  }
+
+.hotline {
+  color: #ffd500;
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.hotline a {
+  color: #ffd500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hotline a:hover {
+  text-decoration: underline;
+}
+
+.phone-icon {
+  font-size: 18px;
+}
+
+/* Mobile styles: make hotline a button */
+@media (max-width: 768px) {
+  .mega-menu-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+}
+/* Mobile styles: make hotline a fixed floating button with hover animation */
+@media (max-width: 768px) {
+  .hotline {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    align-self: unset;
+    font-size: 14px;
+  }
+  
+  .hotline a {
+    background-color: #ffd500;
+    color: #000;
+    padding: 12px 18px;
+    border-radius: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hotline a:hover {
+    background-color: #e6c200;
+    box-shadow: 0 6px 12px rgba(230, 194, 0, 0.7);
+  }
+
+  .phone-icon {
+    font-size: 22px;
+  }
+}
+  .phone-icon {
+    font-size: 20px;
+  }
+}
+
+
